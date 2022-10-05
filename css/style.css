@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(212, 45%, 85%);
+    display: block;
+    font-family: 'Outfit', sans-serif;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+.white-box{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    height: 50vh;
+    width: 15%;
+    border-radius: 10px;  
+}
+.barcode-image{
+    height: 32vh;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+h5{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.words{
+    padding: 10px;
+}
+.barcode-instruction{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+
+@media only screen and (max-width: 768px) {
+      .white-box{
+        width: 50%;
+      }
+      .barcode-image{
+        height: 30vh;
+      }
+    }
+
+
+ @media only screen and (max-width: 375px)  {
+        .barcode-image{
+            height: 26vh;
+        }
+ }  
+  
